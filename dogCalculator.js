@@ -8,10 +8,10 @@ let result = document.querySelector(".result");
 const calculateDoggieAge = (humanAge) => {
 
   // 2. Declare a doggieAge variable and set it equal to the humanAge parameter multiplied by 7.
-  doggieAge = humanAge / 7;
+  doggieAge = humanAge * 7;
 
   // 3. Update the result div's inner html to display the dog's age. Use string interpolation to create the message: "Your doggie is _________ years old in human years!"
-  result.innerHTML = `Your doggie is ${doggieAge} years old in dog years!`
+  result.innerHTML = `Your doggie is ${doggieAge} years old in human years!`
 }
 
 
